@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Test"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/share_btn"
+        android:title="Share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="Hi"
+        app:showAsAction="never" />
+
+
+</menu>
